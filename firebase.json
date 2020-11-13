@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "build", ///wooden-gift-shop-6d4b4
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
